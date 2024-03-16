@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.home{
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    display : flex;
+    flex-direction: row;
+    justify-content: right;
+    gap : 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: rgb(43, 135, 255);
+    width: 100px;
+    height : 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
